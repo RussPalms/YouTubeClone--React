@@ -43,6 +43,7 @@
 	/* flext 1 means use as much room as you have within the container */
 	flex: 1;
 	border: none;
+	outline: none;
 }
 
 .header__icons {
