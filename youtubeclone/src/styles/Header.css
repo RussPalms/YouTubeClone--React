@@ -1,0 +1,55 @@
+.header {
+	display: flex;
+	align-items: center;
+	/* we want all the children to have space between them */
+	justify-content: space-between;
+	/* we add padding so that nothing is touching the side of the screen */
+	padding: 20px;
+	/* this will make the header stick to the top of the page */
+	position: sticky;
+	top: 0;
+	/* this will make it so that it covers any content that it scrolls over */
+	z-index: 100;
+	/* by default the header container is transparent so, we'll give it a background-color */
+	background-color: white;
+}
+
+.header__logo {
+	height: 25px;
+	/* if we were using an anything other than an svg we would normally have to do this 
+    in this case, we have an svg, but we're just using it for demonstration purposes*/
+	object-fit: contain;
+	/* this will push the children to the left */
+	margin-left: 20px;
+}
+
+.header__input {
+	display: flex;
+	align-items: center;
+	width: 40%;
+	border: 1px solid lightgray;
+}
+
+.header__inputButton {
+	/* because it's a material-ui button, we need to override the default width */
+	width: 50px !important;
+	background-color: #fafafa;
+	border-left: 1px solid lightgray;
+	color: grey;
+}
+
+/* target the input of the header__input container */
+.header__input > input {
+	/* flext 1 means use as much room as you have within the container */
+	flex: 1;
+	border: none;
+}
+
+.header__icons {
+	display: flex;
+	align-items: center;
+}
+
+.header__icon {
+	margin-right: 8px;
+}
