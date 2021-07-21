@@ -1,8 +1,8 @@
 const firebaseConfig = {
-	apiKey: "AIzaSyAMZmJSUvDUETUWI1qzK1257x-xuTo0qUg",
-	authDomain: "clone--react.firebaseapp.com",
-	projectId: "clone--react",
-	storageBucket: "clone--react.appspot.com",
-	messagingSenderId: "284712116981",
-	appId: "1:284712116981:web:ddfb264e90472ddeeedbbc",
+	apiKey: "AIzaSyDbZdQqMxIBJ7IBU24j8HBIbiqpnCuTL9M",
+	authDomain: "rpalm-yt-clone--react.firebaseapp.com",
+	projectId: "rpalm-yt-clone--react",
+	storageBucket: "rpalm-yt-clone--react.appspot.com",
+	messagingSenderId: "298842666080",
+	appId: "1:298842666080:web:1f560c4179b842de667f05",
 };

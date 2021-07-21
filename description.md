@@ -1,2 +1,3 @@
 -> npm i @material-ui/core @material-ui/icons
 -> npm i react-router-dom
+-> npm i firebase
