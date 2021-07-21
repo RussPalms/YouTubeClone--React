@@ -35,14 +35,16 @@
 	width: 50px !important;
 	background-color: #fafafa;
 	border-left: 1px solid lightgray;
-	color: grey;
+	color: gray;
+	/* margin-bottom: 0; */
 }
 
 /* target the input of the header__input container */
 .header__input > input {
-	/* flext 1 means use as much room as you have within the container */
+	/* flex: 1 means use as much room as you have within the container */
 	flex: 1;
 	border: none;
+	padding: 0;
 	outline: none;
 }
 
